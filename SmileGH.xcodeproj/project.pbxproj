@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D21ED6C15A346C4009ADA52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21ED6B15A346C4009ADA52 /* UIKit.framework */; };
+		9D21ED6E15A346C4009ADA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21ED6D15A346C4009ADA52 /* Foundation.framework */; };
+		9D21ED7015A346C4009ADA52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21ED6F15A346C4009ADA52 /* CoreGraphics.framework */; };
+		9D21ED7615A346C4009ADA52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D21ED7415A346C4009ADA52 /* InfoPlist.strings */; };
+		9D21ED7815A346C4009ADA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21ED7715A346C4009ADA52 /* main.m */; };
+		9D21ED7C15A346C4009ADA52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21ED7B15A346C4009ADA52 /* AppDelegate.m */; };
+		9D21ED8415A346C5009ADA52 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21ED8315A346C5009ADA52 /* SenTestingKit.framework */; };
+		9D21ED8515A346C5009ADA52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21ED6B15A346C4009ADA52 /* UIKit.framework */; };
+		9D21ED8615A346C5009ADA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21ED6D15A346C4009ADA52 /* Foundation.framework */; };
+		9D21ED8E15A346C5009ADA52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D21ED8C15A346C5009ADA52 /* InfoPlist.strings */; };
+		9D21ED9115A346C5009ADA52 /* SmileGHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21ED9015A346C5009ADA52 /* SmileGHTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D21ED8715A346C5009ADA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D21ED5E15A346C4009ADA52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D21ED6615A346C4009ADA52;
+			remoteInfo = SmileGH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D21ED6715A346C4009ADA52 /* SmileGH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileGH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D21ED6B15A346C4009ADA52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D21ED6D15A346C4009ADA52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D21ED6F15A346C4009ADA52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D21ED7315A346C4009ADA52 /* SmileGH-Info.plist */ = {isa = PBXFileReference; path = "SmileGH-Info.plist"; sourceTree = "<group>"; };
+		9D21ED7515A346C4009ADA52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D21ED7715A346C4009ADA52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D21ED7915A346C4009ADA52 /* SmileGH-Prefix.pch */ = {isa = PBXFileReference; path = "SmileGH-Prefix.pch"; sourceTree = "<group>"; };
+		9D21ED7A15A346C4009ADA52 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D21ED7B15A346C4009ADA52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D21ED8215A346C5009ADA52 /* SmileGHTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileGHTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D21ED8315A346C5009ADA52 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D21ED8B15A346C5009ADA52 /* SmileGHTests-Info.plist */ = {isa = PBXFileReference; path = "SmileGHTests-Info.plist"; sourceTree = "<group>"; };
+		9D21ED8D15A346C5009ADA52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D21ED8F15A346C5009ADA52 /* SmileGHTests.h */ = {isa = PBXFileReference; path = SmileGHTests.h; sourceTree = "<group>"; };
+		9D21ED9015A346C5009ADA52 /* SmileGHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileGHTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D21ED6415A346C4009ADA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21ED6C15A346C4009ADA52 /* UIKit.framework in Frameworks */,
+				9D21ED6E15A346C4009ADA52 /* Foundation.framework in Frameworks */,
+				9D21ED7015A346C4009ADA52 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D21ED7E15A346C5009ADA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21ED8415A346C5009ADA52 /* SenTestingKit.framework in Frameworks */,
+				9D21ED8515A346C5009ADA52 /* UIKit.framework in Frameworks */,
+				9D21ED8615A346C5009ADA52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D21ED5C15A346C4009ADA52 = {
+			isa = PBXGroup;
+			children = (
+				9D21ED7115A346C4009ADA52 /* SmileGH */,
+				9D21ED8915A346C5009ADA52 /* SmileGHTests */,
+				9D21ED6A15A346C4009ADA52 /* Frameworks */,
+				9D21ED6815A346C4009ADA52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D21ED6815A346C4009ADA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D21ED6715A346C4009ADA52 /* SmileGH.app */,
+				9D21ED8215A346C5009ADA52 /* SmileGHTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D21ED6A15A346C4009ADA52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D21ED6B15A346C4009ADA52 /* UIKit.framework */,
+				9D21ED6D15A346C4009ADA52 /* Foundation.framework */,
+				9D21ED6F15A346C4009ADA52 /* CoreGraphics.framework */,
+				9D21ED8315A346C5009ADA52 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D21ED7115A346C4009ADA52 /* SmileGH */ = {
+			isa = PBXGroup;
+			children = (
+				9D21ED7A15A346C4009ADA52 /* AppDelegate.h */,
+				9D21ED7B15A346C4009ADA52 /* AppDelegate.m */,
+				9D21ED7215A346C4009ADA52 /* Supporting Files */,
+			);
+			path = SmileGH;
+			sourceTree = "<group>";
+		};
+		9D21ED7215A346C4009ADA52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D21ED7315A346C4009ADA52 /* SmileGH-Info.plist */,
+				9D21ED7415A346C4009ADA52 /* InfoPlist.strings */,
+				9D21ED7715A346C4009ADA52 /* main.m */,
+				9D21ED7915A346C4009ADA52 /* SmileGH-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D21ED8915A346C5009ADA52 /* SmileGHTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D21ED8F15A346C5009ADA52 /* SmileGHTests.h */,
+				9D21ED9015A346C5009ADA52 /* SmileGHTests.m */,
+				9D21ED8A15A346C5009ADA52 /* Supporting Files */,
+			);
+			path = SmileGHTests;
+			sourceTree = "<group>";
+		};
+		9D21ED8A15A346C5009ADA52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D21ED8B15A346C5009ADA52 /* SmileGHTests-Info.plist */,
+				9D21ED8C15A346C5009ADA52 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D21ED6615A346C4009ADA52 /* SmileGH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D21ED9415A346C5009ADA52 /* Build configuration list for PBXNativeTarget "SmileGH" */;
+			buildPhases = (
+				9D21ED6315A346C4009ADA52 /* Sources */,
+				9D21ED6415A346C4009ADA52 /* Frameworks */,
+				9D21ED6515A346C4009ADA52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileGH;
+			productName = SmileGH;
+			productReference = 9D21ED6715A346C4009ADA52 /* SmileGH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D21ED8115A346C5009ADA52 /* SmileGHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D21ED9715A346C5009ADA52 /* Build configuration list for PBXNativeTarget "SmileGHTests" */;
+			buildPhases = (
+				9D21ED7D15A346C5009ADA52 /* Sources */,
+				9D21ED7E15A346C5009ADA52 /* Frameworks */,
+				9D21ED7F15A346C5009ADA52 /* Resources */,
+				9D21ED8015A346C5009ADA52 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D21ED8815A346C5009ADA52 /* PBXTargetDependency */,
+			);
+			name = SmileGHTests;
+			productName = SmileGHTests;
+			productReference = 9D21ED8215A346C5009ADA52 /* SmileGHTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D21ED5E15A346C4009ADA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "PROVABTECHNOSOFT PVT LTD";
+			};
+			buildConfigurationList = 9D21ED6115A346C4009ADA52 /* Build configuration list for PBXProject "SmileGH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D21ED5C15A346C4009ADA52;
+			productRefGroup = 9D21ED6815A346C4009ADA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D21ED6615A346C4009ADA52 /* SmileGH */,
+				9D21ED8115A346C5009ADA52 /* SmileGHTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D21ED6515A346C4009ADA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21ED7615A346C4009ADA52 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D21ED7F15A346C5009ADA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21ED8E15A346C5009ADA52 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D21ED8015A346C5009ADA52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D21ED6315A346C4009ADA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21ED7815A346C4009ADA52 /* main.m in Sources */,
+				9D21ED7C15A346C4009ADA52 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D21ED7D15A346C5009ADA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21ED9115A346C5009ADA52 /* SmileGHTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D21ED8815A346C5009ADA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D21ED6615A346C4009ADA52 /* SmileGH */;
+			targetProxy = 9D21ED8715A346C5009ADA52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D21ED7415A346C4009ADA52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D21ED7515A346C4009ADA52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D21ED8C15A346C5009ADA52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D21ED8D15A346C5009ADA52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D21ED9215A346C5009ADA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D21ED9315A346C5009ADA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D21ED9515A346C5009ADA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmileGH/SmileGH-Prefix.pch";
+				INFOPLIST_FILE = "SmileGH/SmileGH-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D21ED9615A346C5009ADA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmileGH/SmileGH-Prefix.pch";
+				INFOPLIST_FILE = "SmileGH/SmileGH-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D21ED9815A346C5009ADA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmileGH.app/SmileGH";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmileGH/SmileGH-Prefix.pch";
+				INFOPLIST_FILE = "SmileGHTests/SmileGHTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9D21ED9915A346C5009ADA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmileGH.app/SmileGH";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmileGH/SmileGH-Prefix.pch";
+				INFOPLIST_FILE = "SmileGHTests/SmileGHTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D21ED6115A346C4009ADA52 /* Build configuration list for PBXProject "SmileGH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D21ED9215A346C5009ADA52 /* Debug */,
+				9D21ED9315A346C5009ADA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D21ED9415A346C5009ADA52 /* Build configuration list for PBXNativeTarget "SmileGH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D21ED9515A346C5009ADA52 /* Debug */,
+				9D21ED9615A346C5009ADA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D21ED9715A346C5009ADA52 /* Build configuration list for PBXNativeTarget "SmileGHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D21ED9815A346C5009ADA52 /* Debug */,
+				9D21ED9915A346C5009ADA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D21ED5E15A346C4009ADA52 /* Project object */;
+}
